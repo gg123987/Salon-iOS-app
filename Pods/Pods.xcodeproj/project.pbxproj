@@ -1,0 +1,1662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CAD3534FC55B0333104E5117C0A9A324 /* GoogleSignIn */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F2F4B5E1687C0F8B0477360A158F2F9A /* Build configuration list for PBXAggregateTarget "GoogleSignIn" */;
+			buildPhases = (
+			);
+			dependencies = (
+				ED5F02BA1FD578319E00227649407091 /* PBXTargetDependency */,
+				F1F17F9F872817FDCC016EC5119494F3 /* PBXTargetDependency */,
+				D41F0587B628C8123A80C1D56CC98185 /* PBXTargetDependency */,
+			);
+			name = GoogleSignIn;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00B422DA3CABFC8F816D2299A8D6B088 /* GTLRErrorObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F82BACBF3FC7FE55D1F9BF3EF7213644 /* GTLRErrorObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		015F82A4373E0061B9B6A555196CACED /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 17768449CB54E70D05C2308DF3F76DF5 /* GTMSessionFetcherLogging.m */; };
+		035F200C7627452CE4DF428A56D1E89C /* GTLRService.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DC191170B58959D2389C1962CDF245 /* GTLRService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A7685A4844C605BD239886A545A6A13 /* GTMOAuth2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E293A498BB8775828C087C183026DD4 /* GTMOAuth2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D8A35F228049DA65DDDB1105C0B2F2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1E160E32E5714ECCFC1A1C5DC83BFC /* Foundation.framework */; };
+		11CD496CE233D5C3FCD3575D10A77265 /* GTMSessionFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99437D67C39CE20409EE7CD70DA0B9BA /* GTMSessionFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1413858D05DB01F62586C64D04844B1D /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CCD56B0B310AE630AC15D1D27887E5 /* GTMGatherInputStream.m */; };
+		172BBF1A9EFD063FF25D12CB55811DD6 /* GTMMethodCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D4E5ADAE1E5EFC61314A17B78FDF09 /* GTMMethodCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17B8AB9C373B6080CC1ACB0EAD3A3624 /* GTLRObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B7624036809AFFDDEFE59131FEF127 /* GTLRObject.m */; };
+		1DC2F9F070E856F2D732FEC427A3F5B7 /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F7923CCFE13985E0C802E9F027A34B6 /* GTMSessionFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20A44C12E2C74419B32F670F7C72C756 /* GTMOAuth2ViewControllerTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 9448A9112AE8E5B3F95C6171EADC5480 /* GTMOAuth2ViewControllerTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20A9F6D6DCA3E1ABD178421D9D6B440D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1E160E32E5714ECCFC1A1C5DC83BFC /* Foundation.framework */; };
+		244B33651865CEF3A9644AF85F5D8BF7 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BDC69CD9A8B7A2575D43173830C344 /* GTMNSDictionary+URLArguments.m */; };
+		2942669C1132807AFBB0B5E63A4F693E /* GTLRBatchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDA603A6015FE1BBF8756D4A94EC2CE /* GTLRBatchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F065086862E4A824748BA7A46B6A380 /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F1E3B470655C10AF2D8338B171B62D /* GTMOAuth2Authentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		310CF0913917A08EF10CDE6191FB7A3C /* GTMDebugSelectorValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 607511ED50011EA4D216B2C165C1BB24 /* GTMDebugSelectorValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31C236EDFA046CF73F6145FD877C6926 /* GTMOAuth2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 918C409FA8BA8BF97A6F313C5F35588E /* GTMOAuth2-dummy.m */; };
+		33D8EB9C10386EC377165CDC230E9D72 /* GTLRUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 209666A88A6B24CA5AF38E95CF678461 /* GTLRUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		345689BEE67B1CD2DB0BBBB773923F68 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277004BDDC4CE8099F7B255E40D12128 /* SystemConfiguration.framework */; };
+		37C69BA987F58EC69843F8EF524F091C /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = D730EE1FFEE04A59C5AD4B33FB316B56 /* GTMReadMonitorInputStream.m */; };
+		3AEFC8F0C816328667A9E2DE713BC197 /* GTMReadMonitorInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 5969F52C48CAF509A4F640246E6A9F4E /* GTMReadMonitorInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC6BDF19E109F71F6072657B8EB9B78 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 50D10B436FD081B64412B660A7D8E157 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4186C34DE38651669AA929894788A44D /* GTLRQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0967B5B17DC87252DCEF054559F4688E /* GTLRQuery.m */; };
+		4376C5D96DE1580B166D51A54CF84434 /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C7171FA7A1A62DE2FBFE43A409BF17 /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		478E954156F09956C7DCD8F67ECA872C /* GTLRUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E09D33668ADF9AA648A74E1399BFE963 /* GTLRUploadParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		488E292E7142AF1CB08A86CFF9D181FC /* GTLRDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E17F22F40D1E47D2F130D90FD10E74F1 /* GTLRDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A321B437F18646D3AF8AF86240CD576 /* GTLRURITemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA80E058AE99CED344FAE7C05F1AAD65 /* GTLRURITemplate.m */; };
+		4B246EBC542FBF624E89043394035D86 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A03F8F8FB424246186FA6B5823A96EB /* Security.framework */; };
+		4B9D80BB4E5F53A6A71F37C1C023AEE5 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A95D8EAD0D89ED1F1B220C5F0767A503 /* GoogleToolboxForMac-dummy.m */; };
+		4CE48C7B0F3671D64F27460ACD97DEFC /* GTLRCalendarQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF2FA1CE64E6665303323E60F62EC2E /* GTLRCalendarQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5137E2F81839F55313D3445DFA4AD4A3 /* GTMMIMEDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E728FF7B045D4C76F710FC460C1F2A /* GTMMIMEDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		537BF71119BD36E44CCAD8AA42270E61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1E160E32E5714ECCFC1A1C5DC83BFC /* Foundation.framework */; };
+		541EC6B7688C268B872E334CB442D3DC /* GTLRCalendarObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 4311033AE1699E883C0F0FC3EABF3A67 /* GTLRCalendarObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DAEBF82CB0A8961B1FFC37BB7C4B2BB /* GTLRService.m in Sources */ = {isa = PBXBuildFile; fileRef = E412DC3BFD20B254815D8F2013BE32A0 /* GTLRService.m */; };
+		610E06025D6BD3516957629F49462D21 /* Pods-Assignment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A865AEB12E12717B9355BF0650B88E5 /* Pods-Assignment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		639F763F9CF885E5B8B0CD6EEF7A0750 /* GTLRFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 81103BBFBD2A0E82081A75F703AD33D2 /* GTLRFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6695B218D8BDA2081E57069C35EC00AD /* GTLRDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B370D66383EC6EBFE6F1A82A271483 /* GTLRDuration.m */; };
+		69D085E63387B9DF7EBB99C74FBBEE84 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1406EBB978B3C25F15786AB0F60781DF /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A5D857280F466AD3639C995F6B1A255 /* GTMGatherInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B6234C31CC24447C131394FD2CFF3F /* GTMGatherInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A79A4396111A61825D38FC07300A70F /* GTLRRuntimeCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9051858572247080A13BFC4C44D9F7FB /* GTLRRuntimeCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		763C65BAD167763B30C8BF638DD563FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1E160E32E5714ECCFC1A1C5DC83BFC /* Foundation.framework */; };
+		763E4D8E50568D46E5C5968AFB45A07A /* GTLRDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908F4F4E1F1510C609E843D4C09AC4 /* GTLRDateTime.m */; };
+		7A37B79F71E3CC1CC3DD59F1E18E67B5 /* GTLRCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = AC2523347CF9EF7926C2224058C3EB1D /* GTLRCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D3D7FF0EE8B873E1C069B8D938429C6 /* GTLRBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = D240C660A92512832FA7B3D6CEDFB146 /* GTLRBase64.m */; };
+		84806AE1FC971192BD8EC3C25A23F6EA /* Pods-Assignment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EACB61DC6B5D43C76775C7B2CFEFBE /* Pods-Assignment-dummy.m */; };
+		8672471131489C2DAE3F86AB92E028ED /* GTMOAuth2Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F184B4A22E6E57FD977A280B315DB8 /* GTMOAuth2Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E247AE524D7B6AFD9EA2387A902286 /* GTLRErrorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8C4EF9E46B89E999B12A7F5267402 /* GTLRErrorObject.m */; };
+		8AC79CCD17C5D57E0B16E0618A8DA4B5 /* GTMNSDictionary+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 13049C6CC52A8FB9F8C949D109992B26 /* GTMNSDictionary+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EE9FEF7CC3C02D6F09FE7C1ACC8C0DF /* GTLRUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ACB8AA6C04A49D6A19D74252F36C07 /* GTLRUtilities.m */; };
+		8FB448FFEE6DDF2DC7BF58193110BA32 /* GTLRUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7896A199B318835CC0B6B35590F24F /* GTLRUploadParameters.m */; };
+		97C659D7F4AB06B7DD2915D47FEAFD9E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A03F8F8FB424246186FA6B5823A96EB /* Security.framework */; };
+		9D129FB04A30F1E172D61D4D7CD494AB /* GTLRCalendarObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B28FF13BB497D2B11A396C5300E7B /* GTLRCalendarObjects.m */; };
+		9F6F64EA5C993D235C4049EC4BA72DCE /* GTLRCalendarQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C83C28E7C73B27F923C8F94E676D16 /* GTLRCalendarQuery.m */; };
+		A0966D12401756560F282D39C944F94D /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA23457D1C3BBDE1FFE535A3876EED /* GTMSessionFetcherService.m */; };
+		A25FDAF1D6C02E219690638E6094B60D /* GTMNSString+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = AD79D659DBB74ED2AC838E655C87483A /* GTMNSString+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F2C7FA2BBA55DB2F5DF7BECAC76A82 /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B5518CDD381EF360A8B2AA37DD0D2491 /* GTMMIMEDocument.m */; };
+		ACB89715A4F2D4572D586E3A6FDFA338 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D951A5BEA15FD9B4F0C1F96F905913 /* GTMOAuth2ViewTouch.xib */; };
+		ADB6CE292F5B2E04185921B3152647AE /* GTLRURITemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = C9389C8C2DA06CB0B6CED9AD25AE8A38 /* GTLRURITemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF91B21B27147C2EC04957B3D3B20141 /* GTLRRuntimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2383374E1406C96060FD5311DDAA7E7A /* GTLRRuntimeCommon.m */; };
+		B1B88BC3BAEF86BC72EFB2868040727D /* GTLRCalendarService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF3003DF40A34C89ADB233B615A8F4C /* GTLRCalendarService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1C8DE043F06A87C95327D85122DD93B /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = BA078381B3E6111E18D01FA339192708 /* GTMOAuth2ViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B59810F93906438735F6B0856B69F712 /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF14850EA8FA7B8EFBA26B39002E97D /* GTMSessionFetcher-dummy.m */; };
+		B68987FBBC384A4E18AD9FE195913404 /* GTMDebugThreadValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5020D31D976CA52ACDA114C0D6535EFA /* GTMDebugThreadValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BADAA958021FE8D03DD8D607B5A9810B /* GTLRBatchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4BB4D205CFE2C93E9A949EC392FF33 /* GTLRBatchQuery.m */; };
+		BC7EAEDA774109BB59BA5469ECE1B839 /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = B82267ACA86DBB9E07C76A5CA0E0F7B6 /* GTMNSString+URLArguments.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BDD13647265C16331E04A44F20F82D38 /* GTLRCalendarService.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAF56EDA94BC7162EABDA208F995E3F /* GTLRCalendarService.m */; };
+		BF4E9956CC0A8D02B5ACB77941ADE015 /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDC946058AD0DB27799578164C43B2E /* GTMOAuth2SignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BFC9D44203EC46BF2302318A91EAEE38 /* GTLRQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 717F934D4246190AA4AB5D6CD9BD5711 /* GTLRQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C48B6D5860632DF5DAF501BE57C218CE /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8FBF1E6A46C5890E6ED0892AAC769 /* GTMSessionUploadFetcher.m */; };
+		C824EED09F39BF8C5BE0C6C19D0207B9 /* GTLRFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF9D7BC78F3F849066D0A730A616FC8 /* GTLRFramework.m */; };
+		CA9D1475F11BCEF018B7A582D52B92BF /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F9CDD2537D1A3E9F5AEDF1D6E6A9DF /* GTMSessionFetcher.m */; };
+		D0C68D97FE87D66E7802E5EC6B188515 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A883091CA8B9015336876914E647849 /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D421DA9CEF9D814BC34400ACAE3377E0 /* GTLRDuration.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FE18382F7FE75CCB9201A74A8F571D /* GTLRDuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D607D3CBCDCF8159E1566CCB06BC3E5A /* GoogleAPIClientForREST-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F65CA997F1D34B4A894236728AF0FF59 /* GoogleAPIClientForREST-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D759EF11EB5ABEC0E8A3BE4E2802CE49 /* GTLRObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 96FEEAEF2619167A0BA238CA4939C0D2 /* GTLRObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D801A7D49C583DF4620BBA6F9DB22A86 /* GTLRBatchQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E256C65C603945E192EB5A4116310AB /* GTLRBatchQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB61BD246936923FCBA7691F20C0930A /* GTLRBatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 731159282C9A9D10CDE5954DB79ECD52 /* GTLRBatchResult.m */; };
+		DD827EA16DD55E6052BB2301AE2A7486 /* GoogleAPIClientForREST-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BFE87E7A1B4013BD92443E2777F8D1 /* GoogleAPIClientForREST-dummy.m */; };
+		E1F04EE012BF68C824612CECDB46AD8E /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A69161078EBB80A4BD99C0F51E7E3E7 /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4A45C28B735CA1AF3041ADB412DC8B5 /* GTMOAuth2SignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = C3204DDAA57409E8A5179F129B5FC655 /* GTMOAuth2SignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6E5E68F4209B831AA7A9D374F64396A /* GTLRDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB35BE96D9C2AB661DEFB558C7CE919 /* GTLRDateTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F973E47E70EE73E74646D86AE5303BDB /* GTLRBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE9602668A050916BE63A52C47C35E1 /* GTLRBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9A1F73C5555091D57052AEB9E54A4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1E160E32E5714ECCFC1A1C5DC83BFC /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		235259E8156A485D59DB5D43DD56A4AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 021E3E04C2747EEA4F96B8A3DF4B302B;
+			remoteInfo = GTMOAuth2;
+		};
+		3399430192DD898334C677BE40E8EB31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D676E21115185671D7258A56944ABE98;
+			remoteInfo = GTMSessionFetcher;
+		};
+		5E1B74510531E1550DC80C955058A371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D47C581D39D227080F83B16A22A56664;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		680EBB2A4F92CE5A7FCD9713D6AE19CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD3534FC55B0333104E5117C0A9A324;
+			remoteInfo = GoogleSignIn;
+		};
+		77F36F25704131A72FA20ADAAB416D0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7958E869B6C0073DB3025514393D7A3;
+			remoteInfo = GoogleAPIClientForREST;
+		};
+		831A7A72242C34A17169E8B2F4BC9A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D47C581D39D227080F83B16A22A56664;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		8A9E12A422E344E53A0E00AAC2C4AFA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 021E3E04C2747EEA4F96B8A3DF4B302B;
+			remoteInfo = GTMOAuth2;
+		};
+		8D4218CACC7F209E7ED5A67F0567BC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D676E21115185671D7258A56944ABE98;
+			remoteInfo = GTMSessionFetcher;
+		};
+		9BE7F08223B06D48893173D974A129F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D676E21115185671D7258A56944ABE98;
+			remoteInfo = GTMSessionFetcher;
+		};
+		C8E74B3CE88CD3CB381A875711F419EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D676E21115185671D7258A56944ABE98;
+			remoteInfo = GTMSessionFetcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002E4CFCEA9D4B6F00446F578479C63B /* GoogleAPIClientForREST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleAPIClientForREST.debug.xcconfig; sourceTree = "<group>"; };
+		03F184B4A22E6E57FD977A280B315DB8 /* GTMOAuth2Authentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMOAuth2Authentication.h; path = Source/GTMOAuth2Authentication.h; sourceTree = "<group>"; };
+		0967B5B17DC87252DCEF054559F4688E /* GTLRQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRQuery.m; path = Source/Objects/GTLRQuery.m; sourceTree = "<group>"; };
+		0A883091CA8B9015336876914E647849 /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Source/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
+		0BF14850EA8FA7B8EFBA26B39002E97D /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
+		13049C6CC52A8FB9F8C949D109992B26 /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSDictionary+URLArguments.h"; path = "Foundation/GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
+		1406EBB978B3C25F15786AB0F60781DF /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		17768449CB54E70D05C2308DF3F76DF5 /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherLogging.m; path = Source/GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
+		177C0F3EDE8AB364185421C9B1F9E216 /* GTMOAuth2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMOAuth2-prefix.pch"; sourceTree = "<group>"; };
+		209666A88A6B24CA5AF38E95CF678461 /* GTLRUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRUtilities.h; path = Source/Utilities/GTLRUtilities.h; sourceTree = "<group>"; };
+		217BD725E08C5001D3B4C03F44C10EFE /* GTMOAuth2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMOAuth2.release.xcconfig; sourceTree = "<group>"; };
+		2383374E1406C96060FD5311DDAA7E7A /* GTLRRuntimeCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRRuntimeCommon.m; path = Source/Objects/GTLRRuntimeCommon.m; sourceTree = "<group>"; };
+		24F9CDD2537D1A3E9F5AEDF1D6E6A9DF /* GTMSessionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcher.m; path = Source/GTMSessionFetcher.m; sourceTree = "<group>"; };
+		251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		277004BDDC4CE8099F7B255E40D12128 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		2A4BB4D205CFE2C93E9A949EC392FF33 /* GTLRBatchQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRBatchQuery.m; path = Source/Objects/GTLRBatchQuery.m; sourceTree = "<group>"; };
+		2DBA23457D1C3BBDE1FFE535A3876EED /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherService.m; path = Source/GTMSessionFetcherService.m; sourceTree = "<group>"; };
+		3096F30DC049FB7D10EA000BE6830930 /* GoogleAPIClientForREST.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleAPIClientForREST.modulemap; sourceTree = "<group>"; };
+		31E728FF7B045D4C76F710FC460C1F2A /* GTMMIMEDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMIMEDocument.h; path = Source/GTMMIMEDocument.h; sourceTree = "<group>"; };
+		31FE18382F7FE75CCB9201A74A8F571D /* GTLRDuration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRDuration.h; path = Source/Objects/GTLRDuration.h; sourceTree = "<group>"; };
+		33D0E177632246193E90383DE5E656AA /* Pods-Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		34EACB61DC6B5D43C76775C7B2CFEFBE /* Pods-Assignment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Assignment-dummy.m"; sourceTree = "<group>"; };
+		36BFE87E7A1B4013BD92443E2777F8D1 /* GoogleAPIClientForREST-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleAPIClientForREST-dummy.m"; sourceTree = "<group>"; };
+		3A03F8F8FB424246186FA6B5823A96EB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		3A69161078EBB80A4BD99C0F51E7E3E7 /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionUploadFetcher.h; path = Source/GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
+		3AF8FBF1E6A46C5890E6ED0892AAC769 /* GTMSessionUploadFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionUploadFetcher.m; path = Source/GTMSessionUploadFetcher.m; sourceTree = "<group>"; };
+		3FCB24BA9ED2EF8EFE2D70D1CD869FF3 /* GTMSessionFetcher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GTMSessionFetcher-Info.plist"; sourceTree = "<group>"; };
+		3FF3003DF40A34C89ADB233B615A8F4C /* GTLRCalendarService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRCalendarService.h; path = Source/GeneratedServices/Calendar/GTLRCalendarService.h; sourceTree = "<group>"; };
+		40C726185E2D40A7A5E51DEA1D527D86 /* GoogleAPIClientForREST-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleAPIClientForREST-Info.plist"; sourceTree = "<group>"; };
+		41D56C92195FC7094D732E809C096CB2 /* GoogleSignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleSignIn.release.xcconfig; sourceTree = "<group>"; };
+		4311033AE1699E883C0F0FC3EABF3A67 /* GTLRCalendarObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRCalendarObjects.h; path = Source/GeneratedServices/Calendar/GTLRCalendarObjects.h; sourceTree = "<group>"; };
+		4A7896A199B318835CC0B6B35590F24F /* GTLRUploadParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRUploadParameters.m; path = Source/Objects/GTLRUploadParameters.m; sourceTree = "<group>"; };
+		4CF51BCB5B1C05739C8DB4C977F59D14 /* Pods-Assignment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Assignment-Info.plist"; sourceTree = "<group>"; };
+		4EDA603A6015FE1BBF8756D4A94EC2CE /* GTLRBatchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRBatchResult.h; path = Source/Objects/GTLRBatchResult.h; sourceTree = "<group>"; };
+		5020D31D976CA52ACDA114C0D6535EFA /* GTMDebugThreadValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugThreadValidation.h; path = DebugUtils/GTMDebugThreadValidation.h; sourceTree = "<group>"; };
+		50D10B436FD081B64412B660A7D8E157 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		57D4E5ADAE1E5EFC61314A17B78FDF09 /* GTMMethodCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMethodCheck.h; path = DebugUtils/GTMMethodCheck.h; sourceTree = "<group>"; };
+		5969F52C48CAF509A4F640246E6A9F4E /* GTMReadMonitorInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMReadMonitorInputStream.h; path = Source/GTMReadMonitorInputStream.h; sourceTree = "<group>"; };
+		5DDC946058AD0DB27799578164C43B2E /* GTMOAuth2SignIn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMOAuth2SignIn.m; path = Source/GTMOAuth2SignIn.m; sourceTree = "<group>"; };
+		5DF9D7BC78F3F849066D0A730A616FC8 /* GTLRFramework.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRFramework.m; path = Source/Utilities/GTLRFramework.m; sourceTree = "<group>"; };
+		5F7923CCFE13985E0C802E9F027A34B6 /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Source/GTMSessionFetcherService.h; sourceTree = "<group>"; };
+		607511ED50011EA4D216B2C165C1BB24 /* GTMDebugSelectorValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugSelectorValidation.h; path = DebugUtils/GTMDebugSelectorValidation.h; sourceTree = "<group>"; };
+		62514F95700A5D12667CEF8AE0F7E31D /* GoogleToolboxForMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.release.xcconfig; sourceTree = "<group>"; };
+		62B0810E3438D9B4C5823BB73F0733C6 /* Pods-Assignment-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Assignment-frameworks.sh"; sourceTree = "<group>"; };
+		67F1E3B470655C10AF2D8338B171B62D /* GTMOAuth2Authentication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMOAuth2Authentication.m; path = Source/GTMOAuth2Authentication.m; sourceTree = "<group>"; };
+		69C7171FA7A1A62DE2FBFE43A409BF17 /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Source/GTMSessionFetcher.h; sourceTree = "<group>"; };
+		6AD8C4EF9E46B89E999B12A7F5267402 /* GTLRErrorObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRErrorObject.m; path = Source/Objects/GTLRErrorObject.m; sourceTree = "<group>"; };
+		702D3CB2C6F89B3E7B6DA7E220FACC9A /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Frameworks/GoogleSignIn.framework; sourceTree = "<group>"; };
+		717F934D4246190AA4AB5D6CD9BD5711 /* GTLRQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRQuery.h; path = Source/Objects/GTLRQuery.h; sourceTree = "<group>"; };
+		72011BE0976C5FDB3DFA4DAED5FEAD9D /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
+		731159282C9A9D10CDE5954DB79ECD52 /* GTLRBatchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRBatchResult.m; path = Source/Objects/GTLRBatchResult.m; sourceTree = "<group>"; };
+		76990F875A0E45EBD85B95327FDB3EC6 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = Resources/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		76C93F324D566F4D04404ABE002D2F73 /* GoogleToolboxForMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.debug.xcconfig; sourceTree = "<group>"; };
+		7B27003E00590886BD118319CFBB66D9 /* GoogleAPIClientForREST-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleAPIClientForREST-prefix.pch"; sourceTree = "<group>"; };
+		7E256C65C603945E192EB5A4116310AB /* GTLRBatchQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRBatchQuery.h; path = Source/Objects/GTLRBatchQuery.h; sourceTree = "<group>"; };
+		7E2B28FF13BB497D2B11A396C5300E7B /* GTLRCalendarObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRCalendarObjects.m; path = Source/GeneratedServices/Calendar/GTLRCalendarObjects.m; sourceTree = "<group>"; };
+		81103BBFBD2A0E82081A75F703AD33D2 /* GTLRFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRFramework.h; path = Source/Utilities/GTLRFramework.h; sourceTree = "<group>"; };
+		85D951A5BEA15FD9B4F0C1F96F905913 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = Source/Touch/GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		8A8D76BBDEE1F7F3EC31979196AE548B /* GoogleAPIClientForREST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleAPIClientForREST.release.xcconfig; sourceTree = "<group>"; };
+		9051858572247080A13BFC4C44D9F7FB /* GTLRRuntimeCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRRuntimeCommon.h; path = Source/Objects/GTLRRuntimeCommon.h; sourceTree = "<group>"; };
+		918C409FA8BA8BF97A6F313C5F35588E /* GTMOAuth2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMOAuth2-dummy.m"; sourceTree = "<group>"; };
+		9447135E6149ECC84850B06435802263 /* GTMOAuth2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GTMOAuth2-Info.plist"; sourceTree = "<group>"; };
+		9448A9112AE8E5B3F95C6171EADC5480 /* GTMOAuth2ViewControllerTouch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMOAuth2ViewControllerTouch.h; path = Source/Touch/GTMOAuth2ViewControllerTouch.h; sourceTree = "<group>"; };
+		96FEEAEF2619167A0BA238CA4939C0D2 /* GTLRObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRObject.h; path = Source/Objects/GTLRObject.h; sourceTree = "<group>"; };
+		9818E4F4BB3E24E3556A719019D74BFC /* GTMSessionFetcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.debug.xcconfig; sourceTree = "<group>"; };
+		982EAD18CBAB38E519C0CC129A7BCC4B /* Pods-Assignment-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Assignment-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99437D67C39CE20409EE7CD70DA0B9BA /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
+		9A865AEB12E12717B9355BF0650B88E5 /* Pods-Assignment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Assignment-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E293A498BB8775828C087C183026DD4 /* GTMOAuth2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMOAuth2-umbrella.h"; sourceTree = "<group>"; };
+		A95D8EAD0D89ED1F1B220C5F0767A503 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		AC2523347CF9EF7926C2224058C3EB1D /* GTLRCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRCalendar.h; path = Source/GeneratedServices/Calendar/GTLRCalendar.h; sourceTree = "<group>"; };
+		ACAF56EDA94BC7162EABDA208F995E3F /* GTLRCalendarService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRCalendarService.m; path = Source/GeneratedServices/Calendar/GTLRCalendarService.m; sourceTree = "<group>"; };
+		AD79D659DBB74ED2AC838E655C87483A /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+URLArguments.h"; path = "Foundation/GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		AF7943BC519A54A9D675527662348CCA /* Pods-Assignment-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Assignment-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1B7624036809AFFDDEFE59131FEF127 /* GTLRObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRObject.m; path = Source/Objects/GTLRObject.m; sourceTree = "<group>"; };
+		B5211226D28E17DEF411A694EF624BE6 /* GTMOAuth2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTMOAuth2.modulemap; sourceTree = "<group>"; };
+		B5518CDD381EF360A8B2AA37DD0D2491 /* GTMMIMEDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMMIMEDocument.m; path = Source/GTMMIMEDocument.m; sourceTree = "<group>"; };
+		B82267ACA86DBB9E07C76A5CA0E0F7B6 /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+URLArguments.m"; path = "Foundation/GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
+		BA078381B3E6111E18D01FA339192708 /* GTMOAuth2ViewControllerTouch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMOAuth2ViewControllerTouch.m; path = Source/Touch/GTMOAuth2ViewControllerTouch.m; sourceTree = "<group>"; };
+		C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3204DDAA57409E8A5179F129B5FC655 /* GTMOAuth2SignIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMOAuth2SignIn.h; path = Source/GTMOAuth2SignIn.h; sourceTree = "<group>"; };
+		C3DA55B191ED008BD5C9D7726362452E /* GTMSessionFetcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.release.xcconfig; sourceTree = "<group>"; };
+		C4BDC69CD9A8B7A2575D43173830C344 /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSDictionary+URLArguments.m"; path = "Foundation/GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
+		C7CCD56B0B310AE630AC15D1D27887E5 /* GTMGatherInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMGatherInputStream.m; path = Source/GTMGatherInputStream.m; sourceTree = "<group>"; };
+		C9389C8C2DA06CB0B6CED9AD25AE8A38 /* GTLRURITemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRURITemplate.h; path = Source/Utilities/GTLRURITemplate.h; sourceTree = "<group>"; };
+		CA80E058AE99CED344FAE7C05F1AAD65 /* GTLRURITemplate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRURITemplate.m; path = Source/Utilities/GTLRURITemplate.m; sourceTree = "<group>"; };
+		CEE9602668A050916BE63A52C47C35E1 /* GTLRBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRBase64.h; path = Source/Utilities/GTLRBase64.h; sourceTree = "<group>"; };
+		D240C660A92512832FA7B3D6CEDFB146 /* GTLRBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRBase64.m; path = Source/Utilities/GTLRBase64.m; sourceTree = "<group>"; };
+		D730EE1FFEE04A59C5AD4B33FB316B56 /* GTMReadMonitorInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMReadMonitorInputStream.m; path = Source/GTMReadMonitorInputStream.m; sourceTree = "<group>"; };
+		D7DC191170B58959D2389C1962CDF245 /* GTLRService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRService.h; path = Source/Objects/GTLRService.h; sourceTree = "<group>"; };
+		D8B370D66383EC6EBFE6F1A82A271483 /* GTLRDuration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRDuration.m; path = Source/Objects/GTLRDuration.m; sourceTree = "<group>"; };
+		DA1E160E32E5714ECCFC1A1C5DC83BFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DAF2FA1CE64E6665303323E60F62EC2E /* GTLRCalendarQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRCalendarQuery.h; path = Source/GeneratedServices/Calendar/GTLRCalendarQuery.h; sourceTree = "<group>"; };
+		E09D33668ADF9AA648A74E1399BFE963 /* GTLRUploadParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRUploadParameters.h; path = Source/Objects/GTLRUploadParameters.h; sourceTree = "<group>"; };
+		E13638504DFC610A5FCB6F306337A8DF /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		E17F22F40D1E47D2F130D90FD10E74F1 /* GTLRDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRDefines.h; path = Source/GTLRDefines.h; sourceTree = "<group>"; };
+		E30A47259FDF950DBBF62B04231FBF0F /* Pods-Assignment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Assignment.modulemap"; sourceTree = "<group>"; };
+		E38C2EF949249213C442D435BD3AAF54 /* Pods-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		E412DC3BFD20B254815D8F2013BE32A0 /* GTLRService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRService.m; path = Source/Objects/GTLRService.m; sourceTree = "<group>"; };
+		E7ACB8AA6C04A49D6A19D74252F36C07 /* GTLRUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRUtilities.m; path = Source/Utilities/GTLRUtilities.m; sourceTree = "<group>"; };
+		E7B8B5A2B9D7B769E4BF07F98B244C59 /* GTMOAuth2 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMOAuth2; path = GTMOAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5FD1C1F95E3A0C07031C7B9F546BBD /* GoogleSignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleSignIn.debug.xcconfig; sourceTree = "<group>"; };
+		EB8404DAD46FF7977DC9077EF4324502 /* GTMOAuth2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMOAuth2.debug.xcconfig; sourceTree = "<group>"; };
+		ED514AC2EC784D7F21226321A8DD1177 /* Pods-Assignment */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Assignment"; path = Pods_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD7419AEF1DF8BB7674EFC4034CE8DE /* Pods-Assignment-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Assignment-resources.sh"; sourceTree = "<group>"; };
+		F1908F4F4E1F1510C609E843D4C09AC4 /* GTLRDateTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRDateTime.m; path = Source/Objects/GTLRDateTime.m; sourceTree = "<group>"; };
+		F2B6234C31CC24447C131394FD2CFF3F /* GTMGatherInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMGatherInputStream.h; path = Source/GTMGatherInputStream.h; sourceTree = "<group>"; };
+		F3BCA9E9D18AC1F826813F83E93D79A0 /* GoogleToolboxForMac-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleToolboxForMac-Info.plist"; sourceTree = "<group>"; };
+		F42256842F324DE048608E933E6B9FB0 /* GTMSessionFetcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-prefix.pch"; sourceTree = "<group>"; };
+		F65CA997F1D34B4A894236728AF0FF59 /* GoogleAPIClientForREST-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleAPIClientForREST-umbrella.h"; sourceTree = "<group>"; };
+		F7C83C28E7C73B27F923C8F94E676D16 /* GTLRCalendarQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRCalendarQuery.m; path = Source/GeneratedServices/Calendar/GTLRCalendarQuery.m; sourceTree = "<group>"; };
+		F82BACBF3FC7FE55D1F9BF3EF7213644 /* GTLRErrorObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRErrorObject.h; path = Source/Objects/GTLRErrorObject.h; sourceTree = "<group>"; };
+		FA9580B604FEB3BB39373989F3185D55 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		FBB35BE96D9C2AB661DEFB558C7CE919 /* GTLRDateTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRDateTime.h; path = Source/Objects/GTLRDateTime.h; sourceTree = "<group>"; };
+		FD519882861480B93B563B477CE1FA29 /* GoogleAPIClientForREST */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleAPIClientForREST; path = GoogleAPIClientForREST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0011CA3301EC32EFF4BDE5D0DE0CB123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763C65BAD167763B30C8BF638DD563FC /* Foundation.framework in Frameworks */,
+				97C659D7F4AB06B7DD2915D47FEAFD9E /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B7B765ED4C533BC4FFAA4DC59E390B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8A35F228049DA65DDDB1105C0B2F2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AADD0B261FF976AFFDA15DF962D97B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A9F6D6DCA3E1ABD178421D9D6B440D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848ED49F1905F7168A291075A4DCE844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A1F73C5555091D57052AEB9E54A4A7 /* Foundation.framework in Frameworks */,
+				4B246EBC542FBF624E89043394035D86 /* Security.framework in Frameworks */,
+				345689BEE67B1CD2DB0BBBB773923F68 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C71E618469F00CD8EC9CE821F819852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537BF71119BD36E44CCAD8AA42270E61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AF459BDABD008037CEA4F02B415ADAB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14B9ED64CAC0A88927AAB0AA564847DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72011BE0976C5FDB3DFA4DAED5FEAD9D /* GTMSessionFetcher.modulemap */,
+				0BF14850EA8FA7B8EFBA26B39002E97D /* GTMSessionFetcher-dummy.m */,
+				3FCB24BA9ED2EF8EFE2D70D1CD869FF3 /* GTMSessionFetcher-Info.plist */,
+				F42256842F324DE048608E933E6B9FB0 /* GTMSessionFetcher-prefix.pch */,
+				99437D67C39CE20409EE7CD70DA0B9BA /* GTMSessionFetcher-umbrella.h */,
+				9818E4F4BB3E24E3556A719019D74BFC /* GTMSessionFetcher.debug.xcconfig */,
+				C3DA55B191ED008BD5C9D7726362452E /* GTMSessionFetcher.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTMSessionFetcher";
+			sourceTree = "<group>";
+		};
+		1EACF911CDAF98314C9354A675F691EF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				69C7171FA7A1A62DE2FBFE43A409BF17 /* GTMSessionFetcher.h */,
+				24F9CDD2537D1A3E9F5AEDF1D6E6A9DF /* GTMSessionFetcher.m */,
+				0A883091CA8B9015336876914E647849 /* GTMSessionFetcherLogging.h */,
+				17768449CB54E70D05C2308DF3F76DF5 /* GTMSessionFetcherLogging.m */,
+				5F7923CCFE13985E0C802E9F027A34B6 /* GTMSessionFetcherService.h */,
+				2DBA23457D1C3BBDE1FFE535A3876EED /* GTMSessionFetcherService.m */,
+				3A69161078EBB80A4BD99C0F51E7E3E7 /* GTMSessionUploadFetcher.h */,
+				3AF8FBF1E6A46C5890E6ED0892AAC769 /* GTMSessionUploadFetcher.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		285D886D26B13D59754300F0CDBA3427 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				AC2523347CF9EF7926C2224058C3EB1D /* GTLRCalendar.h */,
+				4311033AE1699E883C0F0FC3EABF3A67 /* GTLRCalendarObjects.h */,
+				7E2B28FF13BB497D2B11A396C5300E7B /* GTLRCalendarObjects.m */,
+				DAF2FA1CE64E6665303323E60F62EC2E /* GTLRCalendarQuery.h */,
+				F7C83C28E7C73B27F923C8F94E676D16 /* GTLRCalendarQuery.m */,
+				3FF3003DF40A34C89ADB233B615A8F4C /* GTLRCalendarService.h */,
+				ACAF56EDA94BC7162EABDA208F995E3F /* GTLRCalendarService.m */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		2A756FB9C0D4CA51F1824D2E540313CE /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				7825BD102E9A2B073EFAC61F3C71BEE0 /* DebugUtils */,
+				B9BDD707E1B7F79EC5991F7164DC42D5 /* Defines */,
+				78EECA4BD660C9B62F0FECF25D2A05EF /* NSDictionary+URLArguments */,
+				F5D7A9F1B377CA204A6D88D716CAFF1D /* NSString+URLArguments */,
+				ABFFF67E2E7E86C2D9B72E446DFA7667 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		2F66E7100B86AC7AAA607D453F9AD420 /* GoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				498806591AFAF9283D27312137B3F745 /* Frameworks */,
+				6C9776DFA1F042B4DFA6E8CD1C6BECFC /* Resources */,
+				F0B2D6D732FFF33412B013AA9229A86C /* Support Files */,
+			);
+			name = GoogleSignIn;
+			path = GoogleSignIn;
+			sourceTree = "<group>";
+		};
+		32A06E96C0978369311B063C936F21D2 /* Pods-Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				E30A47259FDF950DBBF62B04231FBF0F /* Pods-Assignment.modulemap */,
+				982EAD18CBAB38E519C0CC129A7BCC4B /* Pods-Assignment-acknowledgements.markdown */,
+				AF7943BC519A54A9D675527662348CCA /* Pods-Assignment-acknowledgements.plist */,
+				34EACB61DC6B5D43C76775C7B2CFEFBE /* Pods-Assignment-dummy.m */,
+				62B0810E3438D9B4C5823BB73F0733C6 /* Pods-Assignment-frameworks.sh */,
+				4CF51BCB5B1C05739C8DB4C977F59D14 /* Pods-Assignment-Info.plist */,
+				EFD7419AEF1DF8BB7674EFC4034CE8DE /* Pods-Assignment-resources.sh */,
+				9A865AEB12E12717B9355BF0650B88E5 /* Pods-Assignment-umbrella.h */,
+				33D0E177632246193E90383DE5E656AA /* Pods-Assignment.debug.xcconfig */,
+				E38C2EF949249213C442D435BD3AAF54 /* Pods-Assignment.release.xcconfig */,
+			);
+			name = "Pods-Assignment";
+			path = "Target Support Files/Pods-Assignment";
+			sourceTree = "<group>";
+		};
+		498806591AFAF9283D27312137B3F745 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				702D3CB2C6F89B3E7B6DA7E220FACC9A /* GoogleSignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AF459BDABD008037CEA4F02B415ADAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E160E32E5714ECCFC1A1C5DC83BFC /* Foundation.framework */,
+				3A03F8F8FB424246186FA6B5823A96EB /* Security.framework */,
+				277004BDDC4CE8099F7B255E40D12128 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5AE3553C94E66C60CE44CA1CA7EA3C38 /* GTMOAuth2 */ = {
+			isa = PBXGroup;
+			children = (
+				03F184B4A22E6E57FD977A280B315DB8 /* GTMOAuth2Authentication.h */,
+				67F1E3B470655C10AF2D8338B171B62D /* GTMOAuth2Authentication.m */,
+				C3204DDAA57409E8A5179F129B5FC655 /* GTMOAuth2SignIn.h */,
+				5DDC946058AD0DB27799578164C43B2E /* GTMOAuth2SignIn.m */,
+				9448A9112AE8E5B3F95C6171EADC5480 /* GTMOAuth2ViewControllerTouch.h */,
+				BA078381B3E6111E18D01FA339192708 /* GTMOAuth2ViewControllerTouch.m */,
+				F54F64CCF698CCBE2FDCFB42CDD7C242 /* Resources */,
+				6807E2F0028E332FA04215E38A60E54F /* Support Files */,
+			);
+			name = GTMOAuth2;
+			path = GTMOAuth2;
+			sourceTree = "<group>";
+		};
+		5F9E560CF4361275A6EDA8E958845A2C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9602668A050916BE63A52C47C35E1 /* GTLRBase64.h */,
+				D240C660A92512832FA7B3D6CEDFB146 /* GTLRBase64.m */,
+				7E256C65C603945E192EB5A4116310AB /* GTLRBatchQuery.h */,
+				2A4BB4D205CFE2C93E9A949EC392FF33 /* GTLRBatchQuery.m */,
+				4EDA603A6015FE1BBF8756D4A94EC2CE /* GTLRBatchResult.h */,
+				731159282C9A9D10CDE5954DB79ECD52 /* GTLRBatchResult.m */,
+				FBB35BE96D9C2AB661DEFB558C7CE919 /* GTLRDateTime.h */,
+				F1908F4F4E1F1510C609E843D4C09AC4 /* GTLRDateTime.m */,
+				E17F22F40D1E47D2F130D90FD10E74F1 /* GTLRDefines.h */,
+				31FE18382F7FE75CCB9201A74A8F571D /* GTLRDuration.h */,
+				D8B370D66383EC6EBFE6F1A82A271483 /* GTLRDuration.m */,
+				F82BACBF3FC7FE55D1F9BF3EF7213644 /* GTLRErrorObject.h */,
+				6AD8C4EF9E46B89E999B12A7F5267402 /* GTLRErrorObject.m */,
+				81103BBFBD2A0E82081A75F703AD33D2 /* GTLRFramework.h */,
+				5DF9D7BC78F3F849066D0A730A616FC8 /* GTLRFramework.m */,
+				96FEEAEF2619167A0BA238CA4939C0D2 /* GTLRObject.h */,
+				B1B7624036809AFFDDEFE59131FEF127 /* GTLRObject.m */,
+				717F934D4246190AA4AB5D6CD9BD5711 /* GTLRQuery.h */,
+				0967B5B17DC87252DCEF054559F4688E /* GTLRQuery.m */,
+				9051858572247080A13BFC4C44D9F7FB /* GTLRRuntimeCommon.h */,
+				2383374E1406C96060FD5311DDAA7E7A /* GTLRRuntimeCommon.m */,
+				D7DC191170B58959D2389C1962CDF245 /* GTLRService.h */,
+				E412DC3BFD20B254815D8F2013BE32A0 /* GTLRService.m */,
+				E09D33668ADF9AA648A74E1399BFE963 /* GTLRUploadParameters.h */,
+				4A7896A199B318835CC0B6B35590F24F /* GTLRUploadParameters.m */,
+				C9389C8C2DA06CB0B6CED9AD25AE8A38 /* GTLRURITemplate.h */,
+				CA80E058AE99CED344FAE7C05F1AAD65 /* GTLRURITemplate.m */,
+				209666A88A6B24CA5AF38E95CF678461 /* GTLRUtilities.h */,
+				E7ACB8AA6C04A49D6A19D74252F36C07 /* GTLRUtilities.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6807E2F0028E332FA04215E38A60E54F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5211226D28E17DEF411A694EF624BE6 /* GTMOAuth2.modulemap */,
+				918C409FA8BA8BF97A6F313C5F35588E /* GTMOAuth2-dummy.m */,
+				9447135E6149ECC84850B06435802263 /* GTMOAuth2-Info.plist */,
+				177C0F3EDE8AB364185421C9B1F9E216 /* GTMOAuth2-prefix.pch */,
+				9E293A498BB8775828C087C183026DD4 /* GTMOAuth2-umbrella.h */,
+				EB8404DAD46FF7977DC9077EF4324502 /* GTMOAuth2.debug.xcconfig */,
+				217BD725E08C5001D3B4C03F44C10EFE /* GTMOAuth2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTMOAuth2";
+			sourceTree = "<group>";
+		};
+		6C9776DFA1F042B4DFA6E8CD1C6BECFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76990F875A0E45EBD85B95327FDB3EC6 /* GoogleSignIn.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		760934A05CB8F1E296708CC66A6C26AD /* GTMSessionFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				1EACF911CDAF98314C9354A675F691EF /* Core */,
+				95BBB10FAC5F19FCE130E83D53B92B78 /* Full */,
+				14B9ED64CAC0A88927AAB0AA564847DC /* Support Files */,
+			);
+			name = GTMSessionFetcher;
+			path = GTMSessionFetcher;
+			sourceTree = "<group>";
+		};
+		7825BD102E9A2B073EFAC61F3C71BEE0 /* DebugUtils */ = {
+			isa = PBXGroup;
+			children = (
+				607511ED50011EA4D216B2C165C1BB24 /* GTMDebugSelectorValidation.h */,
+				5020D31D976CA52ACDA114C0D6535EFA /* GTMDebugThreadValidation.h */,
+				57D4E5ADAE1E5EFC61314A17B78FDF09 /* GTMMethodCheck.h */,
+			);
+			name = DebugUtils;
+			sourceTree = "<group>";
+		};
+		78EECA4BD660C9B62F0FECF25D2A05EF /* NSDictionary+URLArguments */ = {
+			isa = PBXGroup;
+			children = (
+				13049C6CC52A8FB9F8C949D109992B26 /* GTMNSDictionary+URLArguments.h */,
+				C4BDC69CD9A8B7A2575D43173830C344 /* GTMNSDictionary+URLArguments.m */,
+			);
+			name = "NSDictionary+URLArguments";
+			sourceTree = "<group>";
+		};
+		95BBB10FAC5F19FCE130E83D53B92B78 /* Full */ = {
+			isa = PBXGroup;
+			children = (
+				F2B6234C31CC24447C131394FD2CFF3F /* GTMGatherInputStream.h */,
+				C7CCD56B0B310AE630AC15D1D27887E5 /* GTMGatherInputStream.m */,
+				31E728FF7B045D4C76F710FC460C1F2A /* GTMMIMEDocument.h */,
+				B5518CDD381EF360A8B2AA37DD0D2491 /* GTMMIMEDocument.m */,
+				5969F52C48CAF509A4F640246E6A9F4E /* GTMReadMonitorInputStream.h */,
+				D730EE1FFEE04A59C5AD4B33FB316B56 /* GTMReadMonitorInputStream.m */,
+			);
+			name = Full;
+			sourceTree = "<group>";
+		};
+		ABFFF67E2E7E86C2D9B72E446DFA7667 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E13638504DFC610A5FCB6F306337A8DF /* GoogleToolboxForMac.modulemap */,
+				A95D8EAD0D89ED1F1B220C5F0767A503 /* GoogleToolboxForMac-dummy.m */,
+				F3BCA9E9D18AC1F826813F83E93D79A0 /* GoogleToolboxForMac-Info.plist */,
+				FA9580B604FEB3BB39373989F3185D55 /* GoogleToolboxForMac-prefix.pch */,
+				1406EBB978B3C25F15786AB0F60781DF /* GoogleToolboxForMac-umbrella.h */,
+				76C93F324D566F4D04404ABE002D2F73 /* GoogleToolboxForMac.debug.xcconfig */,
+				62514F95700A5D12667CEF8AE0F7E31D /* GoogleToolboxForMac.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		B9BDD707E1B7F79EC5991F7164DC42D5 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				50D10B436FD081B64412B660A7D8E157 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		C189ADAA01C9E9E9D65F3216C19C0446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD519882861480B93B563B477CE1FA29 /* GoogleAPIClientForREST */,
+				251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac */,
+				E7B8B5A2B9D7B769E4BF07F98B244C59 /* GTMOAuth2 */,
+				C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher */,
+				ED514AC2EC784D7F21226321A8DD1177 /* Pods-Assignment */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6E586E07138E2ADD133BCB487433DA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3096F30DC049FB7D10EA000BE6830930 /* GoogleAPIClientForREST.modulemap */,
+				36BFE87E7A1B4013BD92443E2777F8D1 /* GoogleAPIClientForREST-dummy.m */,
+				40C726185E2D40A7A5E51DEA1D527D86 /* GoogleAPIClientForREST-Info.plist */,
+				7B27003E00590886BD118319CFBB66D9 /* GoogleAPIClientForREST-prefix.pch */,
+				F65CA997F1D34B4A894236728AF0FF59 /* GoogleAPIClientForREST-umbrella.h */,
+				002E4CFCEA9D4B6F00446F578479C63B /* GoogleAPIClientForREST.debug.xcconfig */,
+				8A8D76BBDEE1F7F3EC31979196AE548B /* GoogleAPIClientForREST.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleAPIClientForREST";
+			sourceTree = "<group>";
+		};
+		CDAA037721188E1AB61869B16629D223 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32A06E96C0978369311B063C936F21D2 /* Pods-Assignment */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				E8524E533A08467AC8DEBC7067B4FFF7 /* Pods */,
+				C189ADAA01C9E9E9D65F3216C19C0446 /* Products */,
+				CDAA037721188E1AB61869B16629D223 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E494E6F4434DBB47E4AD2C866146B36B /* GoogleAPIClientForREST */ = {
+			isa = PBXGroup;
+			children = (
+				285D886D26B13D59754300F0CDBA3427 /* Calendar */,
+				5F9E560CF4361275A6EDA8E958845A2C /* Core */,
+				C6E586E07138E2ADD133BCB487433DA8 /* Support Files */,
+			);
+			name = GoogleAPIClientForREST;
+			path = GoogleAPIClientForREST;
+			sourceTree = "<group>";
+		};
+		E8524E533A08467AC8DEBC7067B4FFF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E494E6F4434DBB47E4AD2C866146B36B /* GoogleAPIClientForREST */,
+				2F66E7100B86AC7AAA607D453F9AD420 /* GoogleSignIn */,
+				2A756FB9C0D4CA51F1824D2E540313CE /* GoogleToolboxForMac */,
+				5AE3553C94E66C60CE44CA1CA7EA3C38 /* GTMOAuth2 */,
+				760934A05CB8F1E296708CC66A6C26AD /* GTMSessionFetcher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0B2D6D732FFF33412B013AA9229A86C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5FD1C1F95E3A0C07031C7B9F546BBD /* GoogleSignIn.debug.xcconfig */,
+				41D56C92195FC7094D732E809C096CB2 /* GoogleSignIn.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleSignIn";
+			sourceTree = "<group>";
+		};
+		F54F64CCF698CCBE2FDCFB42CDD7C242 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85D951A5BEA15FD9B4F0C1F96F905913 /* GTMOAuth2ViewTouch.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F5D7A9F1B377CA204A6D88D716CAFF1D /* NSString+URLArguments */ = {
+			isa = PBXGroup;
+			children = (
+				AD79D659DBB74ED2AC838E655C87483A /* GTMNSString+URLArguments.h */,
+				B82267ACA86DBB9E07C76A5CA0E0F7B6 /* GTMNSString+URLArguments.m */,
+			);
+			name = "NSString+URLArguments";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		418C0D4903BA399A1795B75BBAD7990F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7685A4844C605BD239886A545A6A13 /* GTMOAuth2-umbrella.h in Headers */,
+				8672471131489C2DAE3F86AB92E028ED /* GTMOAuth2Authentication.h in Headers */,
+				F4A45C28B735CA1AF3041ADB412DC8B5 /* GTMOAuth2SignIn.h in Headers */,
+				20A44C12E2C74419B32F670F7C72C756 /* GTMOAuth2ViewControllerTouch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727B4C3A12FB22BF4679F0ED66B8840E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5D857280F466AD3639C995F6B1A255 /* GTMGatherInputStream.h in Headers */,
+				5137E2F81839F55313D3445DFA4AD4A3 /* GTMMIMEDocument.h in Headers */,
+				3AEFC8F0C816328667A9E2DE713BC197 /* GTMReadMonitorInputStream.h in Headers */,
+				4376C5D96DE1580B166D51A54CF84434 /* GTMSessionFetcher.h in Headers */,
+				11CD496CE233D5C3FCD3575D10A77265 /* GTMSessionFetcher-umbrella.h in Headers */,
+				D0C68D97FE87D66E7802E5EC6B188515 /* GTMSessionFetcherLogging.h in Headers */,
+				1DC2F9F070E856F2D732FEC427A3F5B7 /* GTMSessionFetcherService.h in Headers */,
+				E1F04EE012BF68C824612CECDB46AD8E /* GTMSessionUploadFetcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6F93925B6BD24DA41BC85B0BC61D4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610E06025D6BD3516957629F49462D21 /* Pods-Assignment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E3EDBF4BDC38CE96BA21CA250C2288 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D607D3CBCDCF8159E1566CCB06BC3E5A /* GoogleAPIClientForREST-umbrella.h in Headers */,
+				F973E47E70EE73E74646D86AE5303BDB /* GTLRBase64.h in Headers */,
+				D801A7D49C583DF4620BBA6F9DB22A86 /* GTLRBatchQuery.h in Headers */,
+				2942669C1132807AFBB0B5E63A4F693E /* GTLRBatchResult.h in Headers */,
+				7A37B79F71E3CC1CC3DD59F1E18E67B5 /* GTLRCalendar.h in Headers */,
+				541EC6B7688C268B872E334CB442D3DC /* GTLRCalendarObjects.h in Headers */,
+				4CE48C7B0F3671D64F27460ACD97DEFC /* GTLRCalendarQuery.h in Headers */,
+				B1B88BC3BAEF86BC72EFB2868040727D /* GTLRCalendarService.h in Headers */,
+				F6E5E68F4209B831AA7A9D374F64396A /* GTLRDateTime.h in Headers */,
+				488E292E7142AF1CB08A86CFF9D181FC /* GTLRDefines.h in Headers */,
+				D421DA9CEF9D814BC34400ACAE3377E0 /* GTLRDuration.h in Headers */,
+				00B422DA3CABFC8F816D2299A8D6B088 /* GTLRErrorObject.h in Headers */,
+				639F763F9CF885E5B8B0CD6EEF7A0750 /* GTLRFramework.h in Headers */,
+				D759EF11EB5ABEC0E8A3BE4E2802CE49 /* GTLRObject.h in Headers */,
+				BFC9D44203EC46BF2302318A91EAEE38 /* GTLRQuery.h in Headers */,
+				6A79A4396111A61825D38FC07300A70F /* GTLRRuntimeCommon.h in Headers */,
+				035F200C7627452CE4DF428A56D1E89C /* GTLRService.h in Headers */,
+				478E954156F09956C7DCD8F67ECA872C /* GTLRUploadParameters.h in Headers */,
+				ADB6CE292F5B2E04185921B3152647AE /* GTLRURITemplate.h in Headers */,
+				33D8EB9C10386EC377165CDC230E9D72 /* GTLRUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE022EBF05EF5A0E1A8813F24B9B666 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D085E63387B9DF7EBB99C74FBBEE84 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				310CF0913917A08EF10CDE6191FB7A3C /* GTMDebugSelectorValidation.h in Headers */,
+				B68987FBBC384A4E18AD9FE195913404 /* GTMDebugThreadValidation.h in Headers */,
+				3DC6BDF19E109F71F6072657B8EB9B78 /* GTMDefines.h in Headers */,
+				172BBF1A9EFD063FF25D12CB55811DD6 /* GTMMethodCheck.h in Headers */,
+				8AC79CCD17C5D57E0B16E0618A8DA4B5 /* GTMNSDictionary+URLArguments.h in Headers */,
+				A25FDAF1D6C02E219690638E6094B60D /* GTMNSString+URLArguments.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		021E3E04C2747EEA4F96B8A3DF4B302B /* GTMOAuth2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9D431FC8AA661741AB92D5834DD509 /* Build configuration list for PBXNativeTarget "GTMOAuth2" */;
+			buildPhases = (
+				418C0D4903BA399A1795B75BBAD7990F /* Headers */,
+				F4A4D054EFA596B89DDA1432B726C0BF /* Sources */,
+				848ED49F1905F7168A291075A4DCE844 /* Frameworks */,
+				851C2900541F6DC3D538F3C71F6CC1D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDBEC3E7B0E1F722AF5612C4E48F42B2 /* PBXTargetDependency */,
+			);
+			name = GTMOAuth2;
+			productName = GTMOAuth2;
+			productReference = E7B8B5A2B9D7B769E4BF07F98B244C59 /* GTMOAuth2 */;
+			productType = "com.apple.product-type.framework";
+		};
+		D47C581D39D227080F83B16A22A56664 /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82322293D8C92E4DFAD8CAEF314F778E /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				CDE022EBF05EF5A0E1A8813F24B9B666 /* Headers */,
+				4AD4EE18CF4A2093F1983A3B48029CCA /* Sources */,
+				0B7B765ED4C533BC4FFAA4DC59E390B2 /* Frameworks */,
+				AE99A4A3DCB71FCD270353BC27F0DCD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac */;
+			productType = "com.apple.product-type.framework";
+		};
+		D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2E1B413A6C082D920404975C27DD791 /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */;
+			buildPhases = (
+				727B4C3A12FB22BF4679F0ED66B8840E /* Headers */,
+				96ADB4C1CBA8E00C185C299640B61060 /* Sources */,
+				0011CA3301EC32EFF4BDE5D0DE0CB123 /* Frameworks */,
+				2C6F29E230E53BC24E55D9CB930FA746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTMSessionFetcher;
+			productName = GTMSessionFetcher;
+			productReference = C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7958E869B6C0073DB3025514393D7A3 /* GoogleAPIClientForREST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BC8D9CB9BA8F0A168998F1972C1255 /* Build configuration list for PBXNativeTarget "GoogleAPIClientForREST" */;
+			buildPhases = (
+				B3E3EDBF4BDC38CE96BA21CA250C2288 /* Headers */,
+				8647890D551E696B65339A217FDA0BB5 /* Sources */,
+				8C71E618469F00CD8EC9CE821F819852 /* Frameworks */,
+				F225FD7104783D405E6DF673EE1C63E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A22B5683D9AEF618D7D2407AD967A82 /* PBXTargetDependency */,
+			);
+			name = GoogleAPIClientForREST;
+			productName = GoogleAPIClientForREST;
+			productReference = FD519882861480B93B563B477CE1FA29 /* GoogleAPIClientForREST */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0346DC2DD9777C761153FCF535EEDC6 /* Pods-Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E662F7B684B1C835BB594438EBDD7B5 /* Build configuration list for PBXNativeTarget "Pods-Assignment" */;
+			buildPhases = (
+				7E6F93925B6BD24DA41BC85B0BC61D4D /* Headers */,
+				F1AF42FF3FC895FF5E95454F9F8F3D26 /* Sources */,
+				71AADD0B261FF976AFFDA15DF962D97B /* Frameworks */,
+				18C5F8A110ADAD7E7A2662D5057BE2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7FFEE6282A0A3D606A11F572CFA3BD /* PBXTargetDependency */,
+				810883FB5AE9F02C5DFA18162F0034EE /* PBXTargetDependency */,
+				D7B929D1B6C51438031D429E2293E0B9 /* PBXTargetDependency */,
+				692B64AE6B5AD7914A295B241B8FF059 /* PBXTargetDependency */,
+				833199C4D2768EC958C725636434449B /* PBXTargetDependency */,
+			);
+			name = "Pods-Assignment";
+			productName = Pods_Assignment;
+			productReference = ED514AC2EC784D7F21226321A8DD1177 /* Pods-Assignment */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C189ADAA01C9E9E9D65F3216C19C0446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7958E869B6C0073DB3025514393D7A3 /* GoogleAPIClientForREST */,
+				CAD3534FC55B0333104E5117C0A9A324 /* GoogleSignIn */,
+				D47C581D39D227080F83B16A22A56664 /* GoogleToolboxForMac */,
+				021E3E04C2747EEA4F96B8A3DF4B302B /* GTMOAuth2 */,
+				D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */,
+				F0346DC2DD9777C761153FCF535EEDC6 /* Pods-Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C5F8A110ADAD7E7A2662D5057BE2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6F29E230E53BC24E55D9CB930FA746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851C2900541F6DC3D538F3C71F6CC1D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB89715A4F2D4572D586E3A6FDFA338 /* GTMOAuth2ViewTouch.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE99A4A3DCB71FCD270353BC27F0DCD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F225FD7104783D405E6DF673EE1C63E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AD4EE18CF4A2093F1983A3B48029CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9D80BB4E5F53A6A71F37C1C023AEE5 /* GoogleToolboxForMac-dummy.m in Sources */,
+				244B33651865CEF3A9644AF85F5D8BF7 /* GTMNSDictionary+URLArguments.m in Sources */,
+				BC7EAEDA774109BB59BA5469ECE1B839 /* GTMNSString+URLArguments.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8647890D551E696B65339A217FDA0BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD827EA16DD55E6052BB2301AE2A7486 /* GoogleAPIClientForREST-dummy.m in Sources */,
+				7D3D7FF0EE8B873E1C069B8D938429C6 /* GTLRBase64.m in Sources */,
+				BADAA958021FE8D03DD8D607B5A9810B /* GTLRBatchQuery.m in Sources */,
+				DB61BD246936923FCBA7691F20C0930A /* GTLRBatchResult.m in Sources */,
+				9D129FB04A30F1E172D61D4D7CD494AB /* GTLRCalendarObjects.m in Sources */,
+				9F6F64EA5C993D235C4049EC4BA72DCE /* GTLRCalendarQuery.m in Sources */,
+				BDD13647265C16331E04A44F20F82D38 /* GTLRCalendarService.m in Sources */,
+				763E4D8E50568D46E5C5968AFB45A07A /* GTLRDateTime.m in Sources */,
+				6695B218D8BDA2081E57069C35EC00AD /* GTLRDuration.m in Sources */,
+				89E247AE524D7B6AFD9EA2387A902286 /* GTLRErrorObject.m in Sources */,
+				C824EED09F39BF8C5BE0C6C19D0207B9 /* GTLRFramework.m in Sources */,
+				17B8AB9C373B6080CC1ACB0EAD3A3624 /* GTLRObject.m in Sources */,
+				4186C34DE38651669AA929894788A44D /* GTLRQuery.m in Sources */,
+				AF91B21B27147C2EC04957B3D3B20141 /* GTLRRuntimeCommon.m in Sources */,
+				5DAEBF82CB0A8961B1FFC37BB7C4B2BB /* GTLRService.m in Sources */,
+				8FB448FFEE6DDF2DC7BF58193110BA32 /* GTLRUploadParameters.m in Sources */,
+				4A321B437F18646D3AF8AF86240CD576 /* GTLRURITemplate.m in Sources */,
+				8EE9FEF7CC3C02D6F09FE7C1ACC8C0DF /* GTLRUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ADB4C1CBA8E00C185C299640B61060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1413858D05DB01F62586C64D04844B1D /* GTMGatherInputStream.m in Sources */,
+				A4F2C7FA2BBA55DB2F5DF7BECAC76A82 /* GTMMIMEDocument.m in Sources */,
+				37C69BA987F58EC69843F8EF524F091C /* GTMReadMonitorInputStream.m in Sources */,
+				CA9D1475F11BCEF018B7A582D52B92BF /* GTMSessionFetcher.m in Sources */,
+				B59810F93906438735F6B0856B69F712 /* GTMSessionFetcher-dummy.m in Sources */,
+				015F82A4373E0061B9B6A555196CACED /* GTMSessionFetcherLogging.m in Sources */,
+				A0966D12401756560F282D39C944F94D /* GTMSessionFetcherService.m in Sources */,
+				C48B6D5860632DF5DAF501BE57C218CE /* GTMSessionUploadFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AF42FF3FC895FF5E95454F9F8F3D26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84806AE1FC971192BD8EC3C25A23F6EA /* Pods-Assignment-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A4D054EFA596B89DDA1432B726C0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C236EDFA046CF73F6145FD877C6926 /* GTMOAuth2-dummy.m in Sources */,
+				2F065086862E4A824748BA7A46B6A380 /* GTMOAuth2Authentication.m in Sources */,
+				BF4E9956CC0A8D02B5ACB77941ADE015 /* GTMOAuth2SignIn.m in Sources */,
+				B1C8DE043F06A87C95327D85122DD93B /* GTMOAuth2ViewControllerTouch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A22B5683D9AEF618D7D2407AD967A82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */;
+			targetProxy = C8E74B3CE88CD3CB381A875711F419EE /* PBXContainerItemProxy */;
+		};
+		1A7FFEE6282A0A3D606A11F572CFA3BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMOAuth2;
+			target = 021E3E04C2747EEA4F96B8A3DF4B302B /* GTMOAuth2 */;
+			targetProxy = 235259E8156A485D59DB5D43DD56A4AF /* PBXContainerItemProxy */;
+		};
+		692B64AE6B5AD7914A295B241B8FF059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleSignIn;
+			target = CAD3534FC55B0333104E5117C0A9A324 /* GoogleSignIn */;
+			targetProxy = 680EBB2A4F92CE5A7FCD9713D6AE19CA /* PBXContainerItemProxy */;
+		};
+		810883FB5AE9F02C5DFA18162F0034EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */;
+			targetProxy = 3399430192DD898334C677BE40E8EB31 /* PBXContainerItemProxy */;
+		};
+		833199C4D2768EC958C725636434449B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = D47C581D39D227080F83B16A22A56664 /* GoogleToolboxForMac */;
+			targetProxy = 831A7A72242C34A17169E8B2F4BC9A9A /* PBXContainerItemProxy */;
+		};
+		D41F0587B628C8123A80C1D56CC98185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */;
+			targetProxy = 8D4218CACC7F209E7ED5A67F0567BC92 /* PBXContainerItemProxy */;
+		};
+		D7B929D1B6C51438031D429E2293E0B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleAPIClientForREST;
+			target = D7958E869B6C0073DB3025514393D7A3 /* GoogleAPIClientForREST */;
+			targetProxy = 77F36F25704131A72FA20ADAAB416D0B /* PBXContainerItemProxy */;
+		};
+		ED5F02BA1FD578319E00227649407091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = D47C581D39D227080F83B16A22A56664 /* GoogleToolboxForMac */;
+			targetProxy = 5E1B74510531E1550DC80C955058A371 /* PBXContainerItemProxy */;
+		};
+		F1F17F9F872817FDCC016EC5119494F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMOAuth2;
+			target = 021E3E04C2747EEA4F96B8A3DF4B302B /* GTMOAuth2 */;
+			targetProxy = 8A9E12A422E344E53A0E00AAC2C4AFA2 /* PBXContainerItemProxy */;
+		};
+		FDBEC3E7B0E1F722AF5612C4E48F42B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */;
+			targetProxy = 9BE7F08223B06D48893173D974A129F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FEC7E4907B1657B8EDDA1479F67E247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217BD725E08C5001D3B4C03F44C10EFE /* GTMOAuth2.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMOAuth2/GTMOAuth2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMOAuth2/GTMOAuth2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GTMOAuth2/GTMOAuth2.modulemap";
+				PRODUCT_MODULE_NAME = GTMOAuth2;
+				PRODUCT_NAME = GTMOAuth2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2321945FC26F5E17A967CACBE2AD880C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8404DAD46FF7977DC9077EF4324502 /* GTMOAuth2.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMOAuth2/GTMOAuth2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMOAuth2/GTMOAuth2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GTMOAuth2/GTMOAuth2.modulemap";
+				PRODUCT_MODULE_NAME = GTMOAuth2;
+				PRODUCT_NAME = GTMOAuth2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EEFAD175CF9880D7B5D8EE65EC795DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D56C92195FC7094D732E809C096CB2 /* GoogleSignIn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34C49B6113AF2E1A265AA3A4B79E8DC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9818E4F4BB3E24E3556A719019D74BFC /* GTMSessionFetcher.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap";
+				PRODUCT_MODULE_NAME = GTMSessionFetcher;
+				PRODUCT_NAME = GTMSessionFetcher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		467FCE5465C590CC06C532BBBEF4F215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D0E177632246193E90383DE5E656AA /* Pods-Assignment.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Assignment/Pods-Assignment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Assignment/Pods-Assignment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51FDFA4C00E4E82481EF71458F1E12C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002E4CFCEA9D4B6F00446F578479C63B /* GoogleAPIClientForREST.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleAPIClientForREST/GoogleAPIClientForREST-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleAPIClientForREST/GoogleAPIClientForREST-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GoogleAPIClientForREST/GoogleAPIClientForREST.modulemap";
+				PRODUCT_MODULE_NAME = GoogleAPIClientForREST;
+				PRODUCT_NAME = GoogleAPIClientForREST;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		601B0934F3B2F5F4B2FF82B2BD1E3231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62514F95700A5D12667CEF8AE0F7E31D /* GoogleToolboxForMac.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				PRODUCT_MODULE_NAME = GoogleToolboxForMac;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		73C7F3CB9E16CEB7E5C312D6AFAA5344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3DA55B191ED008BD5C9D7726362452E /* GTMSessionFetcher.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap";
+				PRODUCT_MODULE_NAME = GTMSessionFetcher;
+				PRODUCT_NAME = GTMSessionFetcher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87916346C3FD239F6BF99528566BDD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA5FD1C1F95E3A0C07031C7B9F546BBD /* GoogleSignIn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8988E27E618A612E7FE8C2BC33F022D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C93F324D566F4D04404ABE002D2F73 /* GoogleToolboxForMac.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				PRODUCT_MODULE_NAME = GoogleToolboxForMac;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4CCD8165852749FD710D01074632C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8D76BBDEE1F7F3EC31979196AE548B /* GoogleAPIClientForREST.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleAPIClientForREST/GoogleAPIClientForREST-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleAPIClientForREST/GoogleAPIClientForREST-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GoogleAPIClientForREST/GoogleAPIClientForREST.modulemap";
+				PRODUCT_MODULE_NAME = GoogleAPIClientForREST;
+				PRODUCT_NAME = GoogleAPIClientForREST;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EA7E06CD90AEBDC3E322E5C309316F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E38C2EF949249213C442D435BD3AAF54 /* Pods-Assignment.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Assignment/Pods-Assignment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Assignment/Pods-Assignment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B9D431FC8AA661741AB92D5834DD509 /* Build configuration list for PBXNativeTarget "GTMOAuth2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2321945FC26F5E17A967CACBE2AD880C /* Debug */,
+				1FEC7E4907B1657B8EDDA1479F67E247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E662F7B684B1C835BB594438EBDD7B5 /* Build configuration list for PBXNativeTarget "Pods-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467FCE5465C590CC06C532BBBEF4F215 /* Debug */,
+				EA7E06CD90AEBDC3E322E5C309316F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82322293D8C92E4DFAD8CAEF314F778E /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8988E27E618A612E7FE8C2BC33F022D0 /* Debug */,
+				601B0934F3B2F5F4B2FF82B2BD1E3231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2E1B413A6C082D920404975C27DD791 /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C49B6113AF2E1A265AA3A4B79E8DC9 /* Debug */,
+				73C7F3CB9E16CEB7E5C312D6AFAA5344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BC8D9CB9BA8F0A168998F1972C1255 /* Build configuration list for PBXNativeTarget "GoogleAPIClientForREST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FDFA4C00E4E82481EF71458F1E12C9 /* Debug */,
+				E4CCD8165852749FD710D01074632C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F4B5E1687C0F8B0477360A158F2F9A /* Build configuration list for PBXAggregateTarget "GoogleSignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87916346C3FD239F6BF99528566BDD22 /* Debug */,
+				2EEFAD175CF9880D7B5D8EE65EC795DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="21G646" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AppointmentType" representedClassName="AppointmentType" syncable="YES">
+        <attribute name="cost" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Client" representedClassName="Client" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Job" representedClassName="Job" syncable="YES">
+        <attribute name="dropoff_date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="isComplete" attributeType="String"/>
+        <attribute name="pickup_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="quote" optional="YES" attributeType="String"/>
+        <relationship name="job_appointmentType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AppointmentType"/>
+        <relationship name="job_client" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Client"/>
+    </entity>
+</model>
